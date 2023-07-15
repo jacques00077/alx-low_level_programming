@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
  * main - New Entry point
- * Return 0 (success)
+ * Return: 0 (success)
  */
 
 int main(void)
 {
 	int l;
 
-	for (l = 48; l < 58; l++)
+	for (l = 0; l < 10; l++)
 	{
-		putchar(l);
-		if (l != 57)
+		putchar(l + '0');
+		if (l < 9)
 		{
 			putchar(',');
 			putchar(' ');
