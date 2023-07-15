@@ -1,16 +1,16 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return 0
+ * Return: eachtime 0 (success)
  */
 
 int main(void)
 {
 	int j;
 
-	for (j = 0; j < 10; j++)
+	for (j = 48; j < 58; j++)
 	{
-		printf("%d", j);
+		putchar(j);
 	}
 	putchar('\n');
 	return (0);
