@@ -1,17 +1,15 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Return 0
+ * main - Program Entry point
+ * Return: 0
  */
 
 int main(void)
 {
-	int j;
+	int k;
 
-	for (j = 0; j < 10; j++)
-	{
-		printf("%d", j);
-	}
+	for (k = 0; k < 10; k++)
+		printf("%d", k);
 	putchar('\n');
 	return (0);
 }
