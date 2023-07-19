@@ -2,6 +2,7 @@
 
 /**
  * _islower - New Entry point
+ * @c: Character to be checked
  * Return: 1 if c is lowercase, otherwise 0.
  */
 
